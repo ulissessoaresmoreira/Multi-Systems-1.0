@@ -7,15 +7,16 @@
 
 body{
     background-image: url(./imagens/desktop1.jpeg);
-    
+    overflow: hidden;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
 .container{
     display: flex;
-    width: 200px;
-    height: 500px;
+    width: 9px;
+    height: 5px;
 }
 
 .trash{
@@ -56,7 +57,7 @@ body{
 #pixel{
     width:60;
     height: 60px;
-    background-color: blue;
+    
 }
 
 
@@ -74,5 +75,6 @@ body{
 
 .frame{
     display: flex;
-    
+    flex-wrap: wrap;
+
 }

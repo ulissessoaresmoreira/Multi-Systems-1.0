@@ -72,8 +72,3 @@ function addEvent(el, type, callback)
 ////////// 
 
 
-function dragstart_handler(ev) {
-    console.log("dragStart");
-    // Adiciona o id do elemento em questão ao objeto de transferência de dados (dataTransfer)
-    ev.dataTransfer.setData("text/plain", ev.target.id);
-   }
