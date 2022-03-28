@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    
+    margin: auto 0;
+}
+
+.navBar{
+    height: 60px;
+    display: flex;
+}
+
+
+.logo{
+    width: 70%;
+    display: flex;    
+    background-color: white;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 5px 0 0 35px;
+}
+.logo_text{
+    color:rgb(12, 12, 12);
+    line-height: 60px;
+    margin-left: 10px;
+    
+}
+.logo li{
+    list-style: none;
+}
+
+
+
+.menu{
+    width: 100%;
+    background-color: white;    
+}
+.navBar ul{
+    display: flex;
+    justify-content: flex-end;  
+}
+.navBar .menu li{
+    width: 90px;
+    line-height: 60px;
+    display: flex;
+    margin-right: 35px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.banner{
+    display: inline-flex;
+}
+.banner_img{
+    background-image: url(../imagens/banner2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height:90%;    
+}
+.banner_int{
+    width: 70%;
+    height: 250px;
+    text-align: center;
+    margin: auto ;
+    margin-top: 250px; 
+}
+.banner_int h1{    
+    font-size: 42px;
+    padding: 15px;
+    color: black
+}
+.banner_int span{
+    display: flex;
+    position: relative;
+    margin: auto 0;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+.banner_int button{
+    margin-top: 35px;
+    width:150px;
+    height:35px;
+    border-radius: 5px;
+}
+
+.about_me{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    margin: auto ;
+    text-align: center;
+    font-size: 42px;
+}
+.content{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+}
+.know_me{
+    width: 45%;
+    height: 150px;
+    background-color: brown;
+}
