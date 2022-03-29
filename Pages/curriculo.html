@@ -5,40 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
-    <link rel="stylesheet" href="style_cv.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_cv.css">
 </head>
 <body>
 
-    <header class="header">
-        <nav class="navBar">
-            <div class="logo">
-                <span class="logo_img"><img src="../imagens/logo.jpeg" alt=""></span>
-                <h2 class="logo_text"> Ulisses Soares Moreira </h2>
-            </div>
-            <ul class="menu">
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
-    <section id="home" class="container">
+    <section id="home" class="home">
+        <header class="header">
+            <nav class="navBar">                
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li>                        
+                        <img class="logo_img" src="../imagens/logo.jpeg" alt="">
+                    </li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>        
         <div class="banner">
-            <div class="banner_img">
-                <div class="banner_int">
-                                        
-                    <div> <h1> Hi, my name is Ulisses Soares</h1> </div>                    
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, repudiandae? Nisi pariatur deserunt quis! Ex sapiente exercitationem expedita unde dolor blanditiis, amet vero soluta? Obcaecati corrupti aut rerum similique atque?</span>
-                    <button>My Projects</button>
-                </div>
-            </div>
-        </div>
+            <h1> Hi, my name is Ulisses Soares</h1>                    
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, repudiandae? Nisi pariatur deserunt quis! Ex sapiente exercitationem expedita unde dolor blanditiis, amet vero soluta? Obcaecati corrupti aut rerum similique atque?</span>
+            <button class="btn">My Projects</button>
+        </div>            
     </section>
-    <section id="about">
+    <section id="about" class="about">
         <div class="about_me">ABOUT ME</div>
         <div class="content">
             <div class="know_me">Know a little about me</div>
